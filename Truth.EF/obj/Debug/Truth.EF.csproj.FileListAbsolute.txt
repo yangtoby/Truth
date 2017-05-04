@@ -1,0 +1,10 @@
+D:\MeSource\Truth\Truth.EF\bin\Debug\Truth.EF.exe.config
+D:\MeSource\Truth\Truth.EF\bin\Debug\Truth.EF.exe
+D:\MeSource\Truth\Truth.EF\bin\Debug\Truth.EF.pdb
+D:\MeSource\Truth\Truth.EF\bin\Debug\EntityFramework.dll
+D:\MeSource\Truth\Truth.EF\bin\Debug\EntityFramework.SqlServer.dll
+D:\MeSource\Truth\Truth.EF\bin\Debug\EntityFramework.xml
+D:\MeSource\Truth\Truth.EF\bin\Debug\EntityFramework.SqlServer.xml
+D:\MeSource\Truth\Truth.EF\obj\Debug\Truth.EF.csprojResolveAssemblyReference.cache
+D:\MeSource\Truth\Truth.EF\obj\Debug\Truth.EF.exe
+D:\MeSource\Truth\Truth.EF\obj\Debug\Truth.EF.pdb
