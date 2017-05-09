@@ -15,7 +15,7 @@ namespace Truth.EF.Dal
             HasKey(d => d.DestinationId);
             Property(d => d.Name).IsRequired();
             Property(d => d.Description).HasMaxLength(500).IsRequired();
-           
+            //HasMany(d => d.Lodgings).WithRequired(l => l.Destination).Map(l => l.MapKey("EdstinationId"));
         }
     }
 }

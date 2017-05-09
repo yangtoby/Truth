@@ -12,10 +12,12 @@ namespace Truth.EF.Dal
     {
         public LodgingMap()
         {
-            HasRequired(d => d.Destination).WithMany(d => d.Lodgings).HasForeignKey(m => m.DestinationId);
+            //HasRequired(d => d.Destination).WithMany(d => d.Lodgings).HasForeignKey(m => m.DestinationId);
             Property(p => p.Owner).HasColumnType("ntext");
             ToTable("MyLodging");
             Property(p => p.Name).HasColumnName("MyName");
+
+           
         }
     }
 }

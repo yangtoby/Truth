@@ -14,6 +14,7 @@ namespace Truth.EF.Dal
         {
             this.Property(p => p.SocialSecurityNumber).HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.None);
             this.Property(p => p.SocialSecurityNumber).IsConcurrencyToken();
+           // HasRequired(p => p.PhotoOf).WithOptional(p => p.)
         }
     }
 }

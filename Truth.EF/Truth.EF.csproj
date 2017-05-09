@@ -49,15 +49,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dal\ActivityMap.cs" />
     <Compile Include="Dal\BreakAwayContext.cs" />
     <Compile Include="Dal\DestinationMap.cs" />
+    <Compile Include="Dal\InternetSpecialMap.cs" />
     <Compile Include="Dal\LodgingMap.cs" />
     <Compile Include="Dal\PersonMap.cs" />
+    <Compile Include="Dal\PersonPhotoMap.cs" />
     <Compile Include="Dal\TripMap.cs" />
+    <Compile Include="Model\Activity.cs" />
     <Compile Include="Model\Address.cs" />
     <Compile Include="Model\Destination.cs" />
+    <Compile Include="Model\InternetSpecial.cs" />
     <Compile Include="Model\Lodging.cs" />
     <Compile Include="Model\Person.cs" />
+    <Compile Include="Model\PersonPhoto.cs" />
+    <Compile Include="Model\Resort.cs" />
     <Compile Include="Model\Trip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
