@@ -1,0 +1,52 @@
+{
+  "root": {
+    "providers": [
+      {
+        "name": "CloudEmail",
+        "priority": 2,
+        "templates": [
+          {
+            "templateTypeId": 1,
+            "channelTypeId": 1,
+            "templateName": "sdm_e_code_register"
+          },
+          {
+            "templateTypeId": 2,
+            "channelTypeId": 1,
+            "templateName": "sdm_e_code_find_password"
+          }
+        ]
+      },
+      {
+        "name": "MingdaoEmail",
+        "priority": 2,
+        "templates": [
+          {
+            "templateTypeId": 16,
+            "templateName": "sdm_e_common"
+          },
+          {
+            "templateTypeId": 17,
+            "templateName": "sdm_e_upgrade"
+          }
+        ]
+      },
+      {
+        "name": "AliyunEmail",
+        "priority": 2,
+        "templates": [
+          {
+            "templateTypeId": 1,
+            "templateName": "sdm_e_code_register"
+          },
+          {
+            "templateTypeId": 2,
+            "templateName": "sdm_e_code_find_password"
+          }
+        ]
+      }
+    ]
+
+  }
+
+}
