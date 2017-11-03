@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <a id="loginweibo" href="#">登录微博</a>
+    <a id="loginqq" href="#">登录qq</a>
+</div>
+
+<script>
+    $(function () {
+        $.post("@Url.Action("GetOauthLoginUrl")", { systemtype: 1 }, function (res) {
+            var url = res.url;
+            $("#loginweibo").attr("href", url);
+        });
+
+        $.post("@Url.Action("GetOauthLoginUrl")", { systemtype: 2 }, function (res) {
+            var url = res.url;
+            $("#loginqq").attr("href", url);
+        });
+    });
+</script>
