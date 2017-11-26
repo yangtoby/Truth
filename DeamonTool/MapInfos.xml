@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mapInfos>
+  <mapInfo deviceId="0001" doorId="d0001"></mapInfo> 
+  <mapInfo deviceId="0002" doorId="d0002"></mapInfo>
+  <mapInfo deviceId="0003" doorId="d0003"></mapInfo>
+  <mapInfo deviceId="0004" doorId="d0004"></mapInfo>
+  <mapInfo deviceId="0005" doorId="d0005"></mapInfo>
+  <mapInfo deviceId="0006" doorId="d0006"></mapInfo>
+</mapInfos>
